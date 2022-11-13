@@ -1,0 +1,72 @@
+HTML:
+<!--Vai dentro do body--> 
+OBS: colocar a tag "A" dentro das li, pois cada li será um link, menos os
+que estão com "id".   
+<footer class="rodape">
+        <div id="rodape_container">
+            <img src="../grau10/IMG/MGA.png" alt="" width="200px" height="200px">
+            <ul id="topicos"> 
+                <li id="titulos">Serviços</li><br>
+                <li>Catalogo</li>
+                <li>Fale Conosco</li>
+                <li>Login</li>
+            </ul>
+            <ul id="topicos2">
+                <li id="titulos">Ajuda</li><br>
+                <li>Sobre nós</li>
+            </ul>
+            <ul id="topicos3">
+                <li id="titulos">Parceiros</li><br>
+                <li>WebMotors</li>
+                <li>Grau Tecnico</li>
+            </ul>
+        </div>
+    </footer>
+    <footer class="rodape2">
+        <div>
+            <h3 style="color: #f3f5f8;">
+                ©®MGAB Motors SA Todos os Direitos Reservados
+            </h3>
+        </div>
+    </footer>
+/////////////////////////////////////////////////////////////////////////
+css:
+.rodape{
+    position: absolute;
+    top: 151%;
+    border-top: solid 2px #C0C0C0;
+    background-color: #f3f5f8;
+    width: 100%;
+}
+#rodape_container{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#rodape_container li{
+    list-style: none;
+}
+#topicos{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+#topicos2{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+#topicos3{
+    position: absolute;
+    top: 10%;
+    left: 70%;
+}
+#titulos{
+    font-size: 30px;
+}
+.rodape2{
+    position: absolute;
+    top: 180%;
+    width: 99.5%;
+    background-color: #4F4F4F;
+    margin-left: 5px;
+}

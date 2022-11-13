@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../grau10/css/login.css">
+    <link rel="stylesheet" href="../grau10/login.js">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form action="get">
+        <h1>Login</h1>
+        <input type="text" name="usuario" placeholder="login" id="login"><br><br>
+        <input type="password" name="senha" placeholder="Senha" id="senha"><br><br>
+        <input type="submit" id="botao" value="Logar " onclick="logar()" >
+        </form><br><br>
+        Não Possui Cadastro? <a href="../grau10/cadastro.html">Cadastre-se</a>
+    </div>
+
+</body>
+<script>
+ function logar(){                       
+    var login = document.getElementById('login').value; //Variável login recebe o que vem do input login.
+    //Para pegar o que for Digitado no Input, deve-se Adicionar o .value                    
+    var senha = document.getElementById('senha').value;//Segue o Mesmo padrão do login                    
+    //Definindo a Condição - VERDADEIRA
+    if(login == "andre" && senha == "123456"){
+        alert('sucesso');
+        location.href = "../Front-End/grau10/Home.html"; //Chamando uma Página em HTML no JS
+        //O Location.href encaminha para o endereço que você colocar como parâmetro
+        //OBS: Precisamos colocar o return dentro do input, pois o Java Scrip está esperando uma
+        //Validação do Formulário. Com o Return False, ele vai parar de esperar uma validação do
+        //Formulário e vai fazer o que a gente mandar no location.href, aprovando assim nosso
+        //redirecionamento pro Home.    
+    }else{
+        alert('Usuário ou Senha Errados');
+        location.href = "login.html"
+        }
+    }       
+</script>
+</html>
