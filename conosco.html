@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Atendimento</title>
+    <link rel="stylesheet" href="../grau10/css/estilo.css">
+    <link rel="stylesheet" href="../grau10/css/reset.css">
+    <link rel="stylesheet" href="../grau10/css/conosco.css">
+</head>
+<body>
+    <header class="cabeca">
+        <nav>
+            <a href="../grau10/Home.html" id="logo">
+                <img src="../grau10/IMG/MGA.png" alt="logo" width="250px" height="95px">
+            </a>
+        <div id="divBusca">
+            <input type="text" id="pesquisa" placeholder="Digite a marca ou modelo do Veículo"/>    
+        </div>
+            <div >
+                <a href="Catalogo.html" id="catalogo" >Catalogo</a>
+                <a href="../grau10/conosco.html" id="ajuda">Fale Conosco</a>
+                <a href="../grau10/login.html" id="login">Login</a> 
+            </div>
+        </nav>
+    </header>
+    <nav class="corpo">
+        <center><H1 id="titulo">Bem vindo ao centro de Atendimento MGAB</H1></center><br><br>
+        <center><table border="2">
+        <td class="imagem">
+            <form>
+                Nome completo:
+                <input type="text" name="nome" required><br><br>
+                Email:
+                <input type="email" name="email" pattern="(^[a-zA-z0-9_.+-]+@[a-zA-z0-9-]+\.[a-zA-Z0-9-.]+$)"/><br><br>
+                Telefone:
+                <input type="number" name="numero" min="11" required/><br><br>
+                Tipo de Problema:
+                <select name="select">
+                    <option>Error de cadastro</option>
+                    <option>Error de compra</option>
+                    <option>Error de pagamento</option>
+                    <option>Error de seguro</option>
+                </select><br><br>
+                <p><strong>Se não achou o seu problema digite para podermos ajudar!</strong></p>
+                Messagem:<br><br>
+                <textarea>Deixe o seu comentário</textarea><br><br>
+                Nivel de Atendimento-MGA:<br>
+                Pouco satisfeito
+                <input type="range" name="satisfacao" min="0" max="10" />
+                Muito satisfeito<br><br>
+                <input type="submit" value="Enviar" onclick="envio()">
+            </form>
+        </td>
+        </table></center>
+    </nav>
+    <footer class="rodape">
+        <div id="rodape_container">
+            <img src="../grau10/IMG/MGA.png" alt="" width="200px" height="200px">
+            <ul id="topicos"> 
+                <li id="titulos">Serviços</li><br>
+                <li><a href="../grau10/Catalogo.html">Catalogo</a></li>
+                <li><a href="../grau10/conosco.html">Fale Conosco</a></li>
+                <li><a href="../grau10/login.html">Login</a></li>
+            </ul>
+            <ul id="topicos2">
+                <li id="titulos">Ajuda</li><br>
+                <li><a href="">Sobre nós</a></li>
+            </ul>
+            <ul id="topicos3">
+                <li id="titulos">Parceiros</li><br>
+                <li><a href="https://www.webmotors.com.br/">WebMotors</a></li>
+                <li><a href="https://www.grautecnico.com.br/">Grau Tecnico</a></li>
+            </ul>
+        </div>
+    </footer>
+    <footer class="rodape2">
+        <div>
+            <h3 style="color: #f3f5f8;">
+                ©®MGAB Motors SA Todos os Direitos Reservados
+            </h3>
+        </div>
+    </footer>
+</body>
+<script>
+</script>
+</html>

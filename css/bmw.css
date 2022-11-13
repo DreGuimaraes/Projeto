@@ -1,0 +1,214 @@
+#logo{
+    margin-left: 1%;
+}
+#pesquisa{
+    position: absolute;
+    border-radius: 10px;
+    width: 450px;
+    height: 47px;
+    left: 23%;
+    top: 20%;
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-color:#fff;
+    background-image: url(../IMG/busca.jpg);
+    background-position: left 9px center;
+    padding-left: 40px;
+    padding-right: 0;
+    font-size: 14px;
+    border: solid 1px #D3D3D3;
+    
+}
+.cabeca{
+    border-bottom: solid 2px #C0C0C0;
+    position: fixed;
+    width: 100%;
+    background-color: #f3f5f8;
+    z-index: 99;
+}
+#catalogo{
+    position: absolute;
+    left: 60%;
+    top: 25%;    
+    text-decoration: none;
+    margin-right: 15px;
+    color: black;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #DCDCDC;
+    box-shadow: 3px 3px 0 #C0C0C0;
+}
+#ajuda{
+    position: absolute;
+    left: 73%;
+    top: 25%;   
+    text-decoration: none;
+    margin-right: 15px;
+    color: black;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #DCDCDC;
+    box-shadow: 3px 3px 0 #C0C0C0; 
+}
+#login{
+    position: absolute;
+    left: 90%;
+    top: 25%; 
+    text-decoration: none;   
+    margin-right: 15px;
+    color: black;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #DCDCDC;
+    box-shadow: 3px 3px 0 #C0C0C0;
+}
+.container_imagem{
+    position: absolute;
+    top: 25%;
+}
+#tituloModelo{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    color: #DC143C;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+.container_descrição{
+    position: absolute;
+    top: 100%;
+    left: 5%;
+}
+.detalhes h2{
+    font-size: 18px;
+    color: #696969;
+}
+.detalhes p{
+    font-size: 20px;
+    color: #363636;
+}
+.preco{
+    position: absolute;
+    top: 90%;
+    left: 63%;
+}
+#financiamento{
+    position: absolute;
+    top: 90%;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #f3123c;
+    color: #DCDCDC;
+    box-shadow: #CD5C5C 3px 3px 0;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 5px;
+}
+.contato_vendedor{
+    position: absolute;
+    top: 108%;
+    left: 63%;
+}
+.contato_vendedor h3{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;;
+}
+#label_msg{
+    position: absolute;
+    top: 60%;
+    left: 6%;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #696969;
+}
+#nome{
+    border-radius: 8px;
+    border: solid 2px #aeaeba;
+    width: 300px;
+    height: 35px;
+}
+#email{
+    border-radius: 8px;
+    border: solid 2px #aeaeba;
+    width: 300px;
+    height: 35px;
+}
+#telefone{
+    border-radius: 8px;
+    border: solid 2px #aeaeba;
+    width: 300px;
+    height: 35px;
+}
+#mensagem{
+    border-radius: 8px;
+    border: solid 2px #aeaeba;
+    width: 300px;
+    height: 100px;
+}
+#enviar_msg{
+    position: absolute;
+    top: 90%;
+    left: 110%;
+    width: 110px;
+    height: 25px;
+    border-radius: 8px;
+    background-color: #DC143C;
+    color: #f3f5f8;
+}
+.rodape{
+    position: absolute;
+    top: 190%;
+    border-top: solid 2px #C0C0C0;
+    background-color: #f3f5f8;
+    width: 100%;
+}
+#rodape_container{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#rodape_container li{
+    list-style: none;
+}
+#topicos{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+#topicos2{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+#topicos3{
+    position: absolute;
+    top: 10%;
+    left: 70%;
+}
+#titulos{
+    font-size: 30px;
+}
+.rodape2{
+    position: absolute;
+    top: 220%;
+    width: 99.5%;
+    background-color: #4F4F4F;
+    margin-left: 5px;
+}
+#rodape_container a{
+    text-decoration: none;
+    color: #4F4F4F;
+}
+#tituloDescrição{
+    color: #4F4F4F;
+}

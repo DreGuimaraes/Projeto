@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="../grau10/css/cadastro.css">
+    <link href="../grau10/login.js">
+    <title>MGA-Cadastro</title>
+</head>
+<body>
+    <header class="cabeca">
+        <nav>
+            <a href="../grau10/Home.html" id="logo">
+                <img src="../grau10/IMG/MGA.png" alt="logo" width="250px" height="95px">
+            </a>
+        <div id="divBusca">
+            <input type="text" id="pesquisa" placeholder="Digite a marca ou modelo do Veículo"/>    
+        </div>
+            <div >
+                <a href="Catalogo.html" id="catalogo" >Catalogo</a>
+                <a href="../grau10/conosco.html" id="ajuda">Fale Conosco</a>
+                <a href="../grau10/login.html" id="login">Login</a> 
+            </div>
+        </nav>
+    </header>
+    <center> 
+        <nav class="cadastro">
+            <h2 id="titulo">Faça o cadastro para ter acesso<br>as nossa Ofertas Exclusivas</h2><br><br>
+            <center>
+                <table border="2">
+                <td>
+                <form action="get" id="form">
+                    Nome:
+                    <input type="text" name="nome" id="nome" required>
+                    Sobrenome:
+                    <input type="text" name="sobrenome" id="sobrenome" required/><br>
+                    Data de Nascimento:
+                    <input type="date" name="nascimento" id="date" max="2004-01-01" required/>
+                    CPF:
+                    <input type="number" name="cpf" id="campo_cpf" min="11" required/><br>
+                    Email:
+                    <input type="email" name="email" id="email" pattern="(^[a-zA-z0-9_.+-]+@[a-zA-z0-9-]+\.[a-zA-Z0-9-.]+$)" />
+                    Telefone:
+                    <input type="number" name="telefone" id="telefone" min="9" required /><br>
+                    <h3>Endereço</h3>
+                    Rua:
+                    <input type="text" name="rua" id="rua" required />
+                    Nº:
+                    <input type="number" name="numero" id="numero" required/><br>
+                    Selecione o seu Estado:
+                    <select name="select" id="estado">
+                        <option value="valor1">Amazonas</option>
+                        <option value="valor2">Bahia</option>
+                        <option value="valor3">Ceara</option>
+                        <option value="valor4">Distrito Federal</option>
+                        <option value="valor5">Espírito Santo</option>
+                        <option value="valor6">Goiás</option>
+                        <option value="valor7">Maranhão</option>
+                        <option value="valor8">Mato Grosso</option>
+                        <option value="valor9">Mato Grosso do Sul</option>
+                        <option value="valor10">Minas gerais</option>
+                        <option value="valor11">Pará</option>
+                        <option value="valor12">Paraíba</option>
+                        <option value="valor13">Paraná</option>
+                        <option value="valor14">Pernaumbuco</option>
+                        <option value="valor15">Piauí Terezina</option>
+                        <option value="valor16">Rio de Janeiro</option>
+                        <option value="valor17">Rio Grande do Norte</option>
+                        <option value="valor18">Rio Grande do Sul</option>
+                        <option value="valor19">Rondônia</option>
+                        <option value="valor20">Roraima</option>
+                        <option value="valor21">Santa Catarina</option>
+                        <option value="valor22">São Paulo</option>
+                        <option value="valor23">Sergipe</option>
+                        <option value="valor24">Tocantis</option>         
+                    </select>
+                    Cidade:
+                    <input type="text" name="cidade" id="cidade" required/><br><br>
+                    Senha: <input type="password" name="senha" id="senha" required><br><br>
+                    <input type="submit"  value="Enviar Formulario" onclick="envio_de_formulario(); return false">
+                    <input type="reset" value="Apagar">
+                </form>
+                </td>
+                </table>
+            </center>
+        </nav>
+    </center>
+</body>
+<script src="login.js"></script>
+</html>

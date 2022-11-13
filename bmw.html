@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../grau10/css/reset.css">
+    <link rel="stylesheet" href="../grau10/css/bmw.css">
+    <title>BMW F850</title>
+</head>
+<body>
+    <header class="cabeca">
+        <nav>
+            <a href="../grau10/Home.html" id="logo">
+                <img src="../grau10/IMG/MGA.png" alt="logo" width="250px" height="95px">
+            </a>
+        <div id="divBusca">
+            <input type="text" id="pesquisa" placeholder="Digite a marca ou modelo do Veículo"/>    
+        </div>
+            <div >
+                <a href="Catalogo.html" id="catalogo" >Catalogo</a>
+                <a href="../grau10/conosco.html" id="ajuda">Fale Conosco</a>
+                <a href="../grau10/login.html" id="login">Login</a> 
+            </div>
+        </nav>
+    </header>
+    <div class="container_imagem">
+        <table>
+            <tr>
+                <td>
+                    <img src="../grau10/IMG/bmwf850.branco-azul.jpg" alt="" width="335px" height="350px">
+                </td>
+                <td>
+                    <img src="../grau10/IMG/bmwf850.branco-azul1.jpg" alt="" width="335px" height="350px">
+                </td>
+                <td>
+                    <img src="../grau10/IMG/bmwf850.branco-azul2.jpg" alt="" width="335px" height="350px">
+                </td>
+                <td>
+                    <img src="../grau10/IMG/bmwf850.branco-azul3.jpg" alt="" width="334px" height="350px">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <h1 id="tituloModelo">
+        BMW F850 GS PREMIUM
+    </h1>
+    <div class="container_descrição">
+        <table cellspacing="40">
+            <tr>
+                <td>
+                    <h2 id="tituloDescrição">
+                        Ano
+                    </h2>
+                    <strong>
+                        2022
+                    </strong>
+                </td>
+                <td>
+                    <h2 id="tituloDescrição">
+                        Marchas
+                    </h2>
+                    <strong>
+                        6
+                    </strong>
+                </td>
+                <td>
+                    <h2 id="tituloDescrição">Quilometragem</h2>
+                    <strong>
+                    6.800
+                    </strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2 id="tituloDescrição">Tipo de Motor</h2>
+                    <strong>
+                    4 Tempos
+                    </strong>
+                </td>
+                <td>
+                    <h2 id="tituloDescrição">Cor</h2>
+                    <strong>
+                    Branco/Azul
+                    </strong>
+                </td>
+                <td>
+                    <h2 id="tituloDescrição">Refrigerção</h2>
+                    <strong>
+                    Líquida
+                    </strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2 id="tituloDescrição">Estilo</h2>
+                    <strong>
+                    Trail
+                    </strong>
+                </td>
+                <td>
+                    <h2 id="tituloDescrição">Cilindrada</h2>
+                    <strong>
+                    850
+                    </strong>
+                </td>
+                <td>
+                    <h2 id="tituloDescrição">Partida</h2>
+                    <strong>
+                    Elétrica
+                    </strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2 id="tituloDescrição">Freio dianteiro/traseiro</h2>
+                    <strong>
+                        Disco
+                    </strong>
+                </td>
+                <td>
+                    <h2 id="tituloDescrição">Alimentação</h2>
+                    <strong>
+		            Injeção Eletrônica
+		            </strong>
+                </td>
+            </tr>
+        </table>
+        <div class="detalhes">
+            <h2>Sobre esta moto</h2>
+            <p>Osten Premium BMW Motorrad - Motocicleta impecável, sem detalhes.. Solicite sua proposta. As melhores condições e melhor atendimento, entre em contato para detalhes deste e de outras opções. Garantimos o melhor negócio!Osten Premium BMW Motorrad - Motocicleta impecável, sem detalhes.. Solicite sua proposta. As melhores condições e melhor atendimento, entre em contato para detalhes deste e de outras opções. Garantimos o melhor negócio!</p>
+        </div>
+    </div>
+    <div class="preco">
+        <h1>R$ 66.484,00</h1>
+        <h3>Simular as Parcelas desse Automóvel</h3><br>
+        <a href="../grau10/Financiamento/financiamentobmw.html" id="financiamento">Ver Parcelas</a>
+        <!--<button id="financiamento" onclick="calcular()" type="button" form="parcelas_financiamento">Ver Parcelas-->
+    </div>
+    <div class="contato_vendedor">
+        <h3>Mensagem Para o Vendedor</h3>
+        <form action="get">
+            <input type="text" id="nome" placeholder="*Nome" required><br><br>
+            <input type="email" id="email" placeholder="*E-mail" onblur="checarEmail()" required><br><br>
+            <input type="tel" id="telefone" placeholder="*Telefone" min="11" max="11" required><br><br>
+            <div>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" maxlength="100">Olá, tenho interesse no veículo. Por favor entre em contato.
+                </textarea>
+                <label id="label_msg">
+                    *mensagem
+                </label>
+            </div>
+            <input type="submit" value="Enviar Mensagem" id="enviar_msg" onclick=" verifica();envioMSG(); checarEmail(); return false">
+        </form>
+    </div>
+    <footer class="rodape">
+        <div id="rodape_container">
+            <img src="../grau10/IMG/MGA.png" alt="" width="200px" height="200px">
+            <ul id="topicos"> 
+                <li id="titulos">Serviços</li><br>
+                <li><a href="../grau10/Catalogo.html">Catalogo</a></li>
+                <li><a href="../grau10/conosco.html">Fale Conosco</a></li>
+                <li><a href="../grau10/login.html">Login</a></li>
+            </ul>
+            <ul id="topicos2">
+                <li id="titulos">Ajuda</li><br>
+                <li><a href="">Sobre nós</a></li>
+            </ul>
+            <ul id="topicos3">
+                <li id="titulos">Parceiros</li><br>
+                <li><a href="https://www.webmotors.com.br/">WebMotors</a></li>
+                <li><a href="https://www.grautecnico.com.br/">Grau Tecnico</a></li>
+            </ul>
+        </div>
+    </footer>
+    <footer class="rodape2">
+        <div>
+            <h3 style="color: #f3f5f8;">
+                ©®MGAB Motors SA Todos os Direitos Reservados
+            </h3>
+        </div>
+    </footer>
+</body>
+<script>
+    function verifica() {
+                    if (document.forms[0].email.value.length == 0) {
+                            alert('Por favor, informe o seu EMAIL.');
+	                    document.frmEnvia.email.focus();
+                        return false;
+                    }
+                return true;
+                
+            }
+ 
+                function checarEmail(){
+                    if( document.forms[0].email.value=="" 
+                    || document.forms[0].email.value.indexOf('@')==-1 
+                    || document.forms[0].email.value.indexOf('.')==-1 )
+	                {
+	                        alert( "Por favor, informe um E-MAIL válido!" );
+	                    return false;
+	                }
+                    return true;
+    }
+    //window.alert("Mensagem enviada para o vendedor")
+</script>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">        
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">        
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="equinox.css"/>
+    <title>Chevrolet Equinox-Preto</title>
+</head>
+<body>
+    <header class="cabeca">
+        <nav>
+            <img src="../grau10/IMG/MGA.png" alt="logo" width="250px" height="95px">
+        <div id="divBusca">
+            <input type="text" id="pesquisa" placeholder="Digite a marca ou modelo do Veículo"/>    
+        </div>
+            <div >
+                <a href="compra.html" id="catalogo" >Catálogo</a>
+                <a href="" id="ajuda">Fale Conosco</a>
+                <a href="" id="login">Login</a> 
+            </div>
+        </nav>
+    </header>
+    <nav id="">
+        <h1>HONDA HR-V</h1>
+    <div>
+        <img src="../chevrolet Equinox/img/quinox.jpg" width="250" height="200">ㅤㅤㅤ
+        <img src="../chevrolet Equinox/img/quinox1.jpg" width="250px" height="200" >ㅤㅤㅤ
+        <img src="../chevrolet Equinox/img/quinox2.jpg" width="250" height="200">ㅤㅤㅤ
+        ㅤㅤㅤ
+    </div>
+       <div class="especificações">
+        <ul class="especificações">
+            <li class="especificações">
+                <h2>Cidade: Belo Horizonte,MG</h2>
+            </li>
+            <li>
+                <h2>Ano:2018/2019</h2>
+            </li>
+            <li>
+                <h2>KM: 45.115</h2>
+            </li>
+            <li>
+                <h2>Câmbio: Automático </h2>
+            </li>
+            <li>
+                <h2>Carroceria: utilitário esportivo</h2>
+            </li>
+            <li>
+                <h2>Cor: Preto </h2>
+            </li>
+            
+        </ul>
+        
+       </div>
+       <div class="itens 1">
+       <u> <h1 class="itens 1">Itens do veículo</h1></u>
+       </div>
+       <ul class="itens 1" style="width: 50%; ">
+        <li class="itens 1">
+            <h3>Airbag</h3>
+        </li>
+        <li>
+           <h3>Alarme</h3>
+        </li>
+        <li>
+            <h3>Computador de bordo</h3>
+        </li>
+        <li>
+            <h3>Controle de tração</h3>
+        </li>
+        <li>
+            <h3>Freio ABS</h3>
+        </li>
+        
+        <li>
+            <h3>Limpador traseiro</h3>
+        </li>
+        <li>
+            <h3>Rodas de liga leve</h3>
+        </li>
+    </ul> 
+     <ul style="position: absolute; top:103%; left:40% ;"> 
+        <li>
+            <h3>Travas elétricas</h3>
+        </li>
+        <li>
+            <h3>volante com regulagem</h3>
+        </li>
+        <li>
+            <h3>capota marítima</h3>
+        </li>
+        <li>
+            <h3>Sensor de chuva</h3>
+        </li>
+        <li>
+            <h3>Sensor de estacionamento</h3>
+        </li> 
+            <li>
+                <h3>Vidros elétricos</h3>
+        </li>
+        <li>
+            <h3>Volante com regulagem de altura</h3>
+    </li>
+
+       </ul>
+
+       <div class="compra">
+        <form action="get">
+            <input type="submit" value="calcular" onclick="calculo">
+        </form>
+       </div>
+
+
+    </nav>
+
+    <footer class="rodape">
+        <div id="rodape_container">
+            <img src="../grau10/IMG/MGA.png" alt="" width="200px" height="200px">
+            <ul id="topicos"> 
+                <li id="titulos">Serviços</li><br>
+                <li><a>Catalogo</a></li>
+                <li><a>Fale Conosco</a></li>
+                <li><a>Login</a></li>
+            </ul>
+            <ul id="topicos2">
+                <li id="titulos">Ajuda</li><br>
+                <li><a>Sobre nós</a></li>
+            </ul>
+            <ul id="topicos3">
+                <li id="titulos">Parceiros</li><br>
+                <li><a>WebMotors</a></li>
+                <li><a>Grau Tecnico</a></li>
+            </ul>
+        </div>
+    </footer>
+    <footer class="rodape2">
+        <div>
+            <h3 style="color: #f3f5f8;">
+                ©®MGAB Motors SA Todos os Direitos Reservados
+            </h3>
+        </div>
+    </footer>
+    
+    </body>

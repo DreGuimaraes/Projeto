@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../grau10/css/reset.css">
+    <link rel="stylesheet" href="../grau10/css/hrv.css">
+    <title>Ford Fusion</title>
+</head>
+<body>
+    <header class="cabeca">
+        <nav>
+            <a href="../grau10/Home.html" id="logo">
+                <img src="../grau10/IMG/MGA.png" alt="logo" width="250px" height="95px">
+            </a>
+        <div id="divBusca">
+            <input type="text" id="pesquisa" placeholder="Digite a marca ou modelo do Veículo"/>    
+        </div>
+            <div >
+                <a href="Catalogo.html" id="catalogo" >Catalogo</a>
+                <a href="../grau10/conosco.html" id="ajuda">Fale Conosco</a>
+                <a href="../grau10/login.html" id="login">Login</a> 
+            </div>
+        </nav>
+    </header>
+    <div class="container_imagem">
+        <table>
+            <tr>
+                <td>
+                    <img src="../grau10/IMG/fusionbranco.jpg" alt="" width="335px" height="350px">
+                </td>
+                <td>
+                    <img src="../grau10/IMG/fusionbranco1.jpg" alt="" width="335px" height="350px">
+                </td>
+                <td>
+                    <img src="../grau10/IMG/fusionbranco2.jpg" alt="" width="335px" height="350px">
+                </td>
+                <td>
+                    <img src="../grau10/IMG/fusionbranco3.jpg" alt="" width="334px" height="350px">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <h1 id="titulo">
+        FORD FUSION 2.5 SE 16V
+    </h1>
+    <div class="container_descrição">
+        <table cellspacing="40">
+            <tr>
+                <td>
+                    <h2>
+                        Ano
+                    </h2>
+                    <strong>
+                        2018
+                    </strong>
+                </td>
+                <td>
+                    <h2>
+                        Cambio
+                    </h2>
+                    <strong>
+                        Automatico
+                    </strong>
+                </td>
+                <td>
+                    <h2>Quilometragem</h2>
+                    <strong>
+                    74.900
+                    </strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Carroceria</h2>
+                    <strong>
+                    Sedã
+                    </strong>
+                </td>
+                <td>
+                    <h2>Cor</h2>
+                    <strong>
+                    Branco
+                    </strong>
+                </td>
+                <td>
+                    <h2>Combustivel</h2>
+                    <strong>
+                    Gasolina e Alcool
+                    </strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Final da Placa</h2>
+                    <strong>
+                    6
+                    </strong>
+                </td>
+                <td>
+                    <h2>IPVA</h2>
+                    <strong>
+                    Pago
+                    </strong>
+                </td>
+                <td>
+                    <h2>Único Dono</h2>
+                    <strong>
+                    Sim
+                    </strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Aceita Troca</h2>
+                    <strong>
+                    Sim
+                    </strong>
+                </td>
+                <td>
+                    <h2>Todas as revisões feitas <br> pela concessionária</h2>
+                    <strong>
+		            sim
+		            </strong>
+                </td>
+            </tr>
+        </table>
+        <div class="detalhes">
+            <h2>Sobre este Carro</h2>
+            <p>O Ford Fusion foi um sucesso no período do ano de 2006 até 2009, quando surgiu sua primeira geração. O feito se repetiu com a segunda geração que foi de 2010 a 2012 e com a terceira geração não tem sido diferente. O Fusion realmente foi um grande acerto da Ford.
+            Mesmo o Fusion trazendo tanto luxo ele é um veículo bastante econômico. Essa economia se deve aos motores Flex, mas principalmente pelo fato de ser um carro híbrido.
+            </p>
+        </div>
+    </div>
+    <div class="preco">
+        <h1>R$ 96.900,00</h1>
+        <h3>Simular as Parcelas desse Automóvel</h3><br>
+        <a href="" id="financiamento">Ver Parcelas</a>
+        <!--<button id="financiamento" onclick="calcular()" type="button" form="parcelas_financiamento">Ver Parcelas-->
+    </div>
+    <div class="contato_vendedor">
+        <h3>Mensagem Para o Vendedor</h3>
+        <form action="get">
+            <input type="text" id="nome" placeholder="*Nome" required><br><br>
+            <input type="email" id="email" placeholder="*E-mail" onblur="checarEmail()" required><br><br>
+            <input type="tel" id="telefone" placeholder="*Telefone" min="11" max="11" required><br><br>
+            <div>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" maxlength="100">Olá, tenho interesse no veículo. Por favor entre em contato.
+                </textarea>
+                <label id="label_msg">
+                    *mensagem
+                </label>
+            </div>
+            <input type="submit" value="Enviar Mensagem" id="enviar_msg" onclick=" verifica();checar(); checarEmail(); return false">
+        </form>
+    </div>
+    <footer class="rodape">
+        <div id="rodape_container">
+            <img src="../grau10/IMG/MGA.png" alt="" width="200px" height="200px">
+            <ul id="topicos"> 
+                <li id="titulos">Serviços</li><br>
+                <li><a href="../grau10/Catalogo.html">Catalogo</a></li>
+                <li><a href="../grau10/conosco.html">Fale Conosco</a></li>
+                <li><a href="../grau10/login.html">Login</a></li>
+            </ul>
+            <ul id="topicos2">
+                <li id="titulos">Ajuda</li><br>
+                <li><a href="">Sobre nós</a></li>
+            </ul>
+            <ul id="topicos3">
+                <li id="titulos">Parceiros</li><br>
+                <li><a href="https://www.webmotors.com.br/">WebMotors</a></li>
+                <li><a href="https://www.grautecnico.com.br/">Grau Tecnico</a></li>
+            </ul>
+        </div>
+    </footer>
+    <footer class="rodape2">
+        <div>
+            <h3 style="color: #f3f5f8;">
+                ©®MGAB Motors SA Todos os Direitos Reservados
+            </h3>
+        </div>
+    </footer>
+</body>
+</html>
